@@ -3,7 +3,7 @@
 
 ---
 
-Hello, be welcome to my results of the technical test for the data engineer vacancy. This solution was written in jupyter notebooks, you can find the files in the `/notebooks` folder. The install of requirements can be done in two ways. The first one is to install the requirements.txt file in your local machine creating previosly an environment for that. The second one is to use the docker-compose file. If you choose the second way, please follow the next steps:
+Hello, be welcome to my results of the technical test for the data engineer vacancy. This solution was written in jupyter notebooks, you can find the files in the root folder. The install of requirements can be done in two ways. The first one is to install the requirements.txt file in your local machine creating previosly an environment for that. The second one is to use the docker-compose file. If you choose the second way, please follow the next steps:
 
 **Note:** This steps have been build for Linux users but in other OS should be almost the same process.
 
@@ -20,6 +20,6 @@ Hello, be welcome to my results of the technical test for the data engineer vaca
 [I 17:13:05.339 NotebookApp] http://1585d80e7270:8888/?token=3d397d77909270367063f6b89ef9a1b41253ff508358b4c1
 ~~~
 
-Now you are able to run the code of the test. This code is inside `/notebooks`, I recommend to run the script `1. Engineering.ipynb` first. 
+Now you are able to run the code of the test. The code files are `1. Engineering.ipynb` and `2. BI.ipynb`. I recommend to run the script `1. Engineering.ipynb` first. 
 
 Best regards.
