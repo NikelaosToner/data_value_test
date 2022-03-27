@@ -9,7 +9,7 @@ Hello, be welcome to my results of the technical test for the data engineer vaca
 
 1. Install Docker and docker-compose in your machine if you haven't
 2. Download this repository into a folder of your machine
-3. Placed into the repository folder, run `sudo docker-compose build .`. Docker will create an image for create a container in the next step. The image is based on Python3.9 and expose the port 8888 to the port 3000 in your machine, if you are using the port 3000, please shut it down or replace the port of the Dockerfile with your IDE.
+3. Placed into the repository folder, run `sudo docker-compose build .`. Docker will create an image for create a container in the next step. The image is based on Python3.9 and expose the port 8888 to the port 3000 in your machine, if you are using the port 3000, please shut it down or replace the port of the docker-compose.yml with your preferred IDE.
 4. Run `sudo docker-compose up`, this command creates the container. The CMD executed inside the container is jupyter notebooks. Then you will see the internal command line of the program. 
 5. Into your favorite browser go to your local port `http://localhost:3000`. Remember, if you are already using that port is not going to be possible the conection. 
 6. Jupyter notebooks will ask you for a token, go back to the logs of the container and copy the token code, it will be placed in a URL like as seen below. Just copy the code after `token=`
