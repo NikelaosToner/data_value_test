@@ -14,7 +14,7 @@ Hello, be welcome to my results of the technical test for the data engineer vaca
 5. Into your favorite browser go to your local port `http://localhost:3000`. Remember, if you are already using that port is not going to be possible the conection. 
 6. Jupyter notebooks will ask you for a token, go back to the logs of the container and copy the token code, it will be placed in a URL like as seen below. Just copy the code after `token=`
 
-**Example Token:**
+**Example Token (please don't copy this one):**
 
 ~~~
 [I 17:13:05.339 NotebookApp] http://1585d80e7270:8888/?token=3d397d77909270367063f6b89ef9a1b41253ff508358b4c1
