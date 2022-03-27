@@ -5,7 +5,7 @@ RUN mkdir /home/code
 WORKDIR /home/code
 
 
-RUN python3.9 -m pip install pandas numpy jupyter dask matplotlib seaborn
+RUN python3.9 -m pip install pandas numpy jupyter statsmodels plotly pyarrow fastparquet
 
 EXPOSE  8888
 
